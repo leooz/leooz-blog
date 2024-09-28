@@ -2,48 +2,57 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "LéonHardCorre",
+  title: "Léonard",
   description: "Mon blog d'ingénierie",
+  head: [['link', {rel : 'icon', href: '/public/logo/leooz.png'}]],
   themeConfig: {
+    logo: '/logo/leooz.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      // { text: 'PartiPark', link: '/partipark/' },
-      // { text: 'Diacter', link: '/diacter/' },
-      // { text: 'Projet Mod 3D', link: '/projet-mod-3d/' },
-      // { text: 'Reddit TikTok Story', link: '/reddit-tiktok-story/' },
-      // { text: 'Vinted Discord Bot', link: '/vinted-discord-bot/' },
-      // { text: 'IoT Games', link: '/iot-games/' }
+      // { text: 'home', link: '/' },
+      // { text: 'partipark', link: '/partipark/' },
+      // { text: 'diacter', link: '/diacter/' },
+      // { text: 'projet mod 3d', link: '/projet-mod-3d/' },
+      // { text: 'reddit tiktok story', link: '/reddit-tiktok-story/' },
+      // { text: 'vinted discord bot', link: '/vinted-discord-bot/' },
+      // { text: 'iot games', link: '/iot-games/' }
     ],
 
     sidebar: {
       '/partipark/': [
-        { text: 'Introduction', link: '/partipark/' },
-        { text: 'Technologies Utilisées', link: '/partipark/technologies' },
-        { text: 'Challenges', link: '/partipark/challenges' },
-        { text: 'Fonctionnalités', link: '/partipark/fonctionnalites' },
-        { text: 'Apprentissages', link: '/partipark/apprentissages' }
+        { text: 'introduction', link: '/partipark/' },
+        { text: 'technologies utilisées', link: '/partipark/technologies' },
+        { text: 'challenges', link: '/partipark/challenges' },
+        { text: 'fonctionnalités', link: '/partipark/fonctionnalites' },
+        { text: 'apprentissages', link: '/partipark/apprentissages' }
       ],
       '/diacter/': [
-        { text: 'Introduction', link: '/diacter/' },
-        { text: 'Technologies Utilisées', link: '/diacter/technologies' },
-        { text: 'Challenges', link: '/diacter/challenges' },
-        { text: 'Fonctionnalités', link: '/diacter/fonctionnalites' },
-        { text: 'Apprentissages', link: '/diacter/apprentissages' }
+        { text: 'introduction', link: '/diacter/' },
+        { text: 'technologies utilisées', link: '/diacter/technologies' },
+        { text: 'challenges', link: '/diacter/challenges' },
+        { text: 'fonctionnalités', link: '/diacter/fonctionnalites' },
+        { text: 'apprentissages', link: '/diacter/apprentissages' }
+      ],
+      '/ppcc/': [
+        { text: 'introduction', link: '/ppcc/' },
+        { text: 'technologies utilisées', link: '/ppcc/technologies' },
+        { text: 'challenges', link: '/ppcc/challenges' },
+        { text: 'fonctionnalités', link: '/ppcc/fonctionnalites' },
+        { text: 'apprentissages', link: '/ppcc/apprentissages' }
       ],
       '/projet-mod-3d/': [
-        { text: 'Introduction', link: '/projet-mod-3d/' },
-        { text: 'Technologies Utilisées', link: '/projet-mod-3d/technologies' },
-        { text: 'Challenges', link: '/projet-mod-3d/challenges' },
-        { text: 'Fonctionnalités', link: '/projet-mod-3d/fonctionnalites' },
-        { text: 'Apprentissages', link: '/projet-mod-3d/apprentissages' }
+        { text: 'introduction', link: '/projet-mod-3d/' },
+        { text: 'technologies utilisées', link: '/projet-mod-3d/technologies' },
+        { text: 'challenges', link: '/projet-mod-3d/challenges' },
+        { text: 'fonctionnalités', link: '/projet-mod-3d/fonctionnalites' },
+        { text: 'apprentissages', link: '/projet-mod-3d/apprentissages' }
       ],
       '/reddit-tiktok-story/': [
-        { text: 'Introduction', link: '/reddit-tiktok-story/' },
-        { text: 'Technologies Utilisées', link: '/reddit-tiktok-story/technologies' },
-        { text: 'Challenges', link: '/reddit-tiktok-story/challenges' },
-        { text: 'Fonctionnalités', link: '/reddit-tiktok-story/fonctionnalites' },
-        { text: 'Apprentissages', link: '/reddit-tiktok-story/apprentissages' }
+        { text: 'introduction', link: '/reddit-tiktok-story/' },
+        { text: 'technologies utilisées', link: '/reddit-tiktok-story/technologies' },
+        { text: 'challenges', link: '/reddit-tiktok-story/challenges' },
+        { text: 'fonctionnalités', link: '/reddit-tiktok-story/fonctionnalites' },
+        { text: 'apprentissages', link: '/reddit-tiktok-story/apprentissages' }
       ],
       '/vinted-discord-bot/': [
         { text: 'Introduction', link: '/vinted-discord-bot/' },
@@ -62,7 +71,8 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/leooz' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/leonardcorre/' }
     ]
   }
 })
