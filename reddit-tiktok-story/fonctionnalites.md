@@ -25,7 +25,7 @@ res.json({ token });
 ```
 
 ### Capture d'Écran
-![Page de connexion](./images/login-page.png)
+![Page de connexion](/logo/bon.png)
 
 ## Gestion des Utilisateurs
 
@@ -131,7 +131,7 @@ export default function Dashboard() {
 ```
 
 ### Capture d'Écran
-![Tableau de bord](./images/dashboard.png)
+![Tableau de bord](/logo/bon.png)
 
 ## Système de Recherche Avancée
 

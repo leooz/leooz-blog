@@ -15,7 +15,7 @@ Ce projet vise à [insérer objectif principal]. Développé en utilisant des te
 
 Voici une capture d'écran de l'application :
 
-![Capture d'écran du projet](./images/screenshot.png)
+![Capture d'écran du projet](/logo/bon.png)
 
 ## Vidéo
 
