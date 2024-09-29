@@ -20,39 +20,39 @@ export default defineConfig({
 
     sidebar: {
       '/partipark/': [
-        { text: 'introduction', link: '/partipark/' },
-        { text: 'technologies utilisées', link: '/partipark/technologies' },
-        { text: 'challenges', link: '/partipark/challenges' },
-        { text: 'fonctionnalités', link: '/partipark/fonctionnalites' },
-        { text: 'apprentissages', link: '/partipark/apprentissages' }
+        { text: 'Introduction', link: '/partipark/' },
+        { text: 'Technologies utilisées', link: '/partipark/technologies' },
+        { text: 'Challenges', link: '/partipark/challenges' },
+        { text: 'Fonctionnalités', link: '/partipark/fonctionnalites' },
+        { text: 'Apprentissages', link: '/partipark/apprentissages' }
       ],
       '/diacter/': [
-        { text: 'introduction', link: '/diacter/' },
-        { text: 'technologies utilisées', link: '/diacter/technologies' },
-        { text: 'challenges', link: '/diacter/challenges' },
-        { text: 'fonctionnalités', link: '/diacter/fonctionnalites' },
-        { text: 'apprentissages', link: '/diacter/apprentissages' }
+        { text: 'Introduction', link: '/diacter/' },
+        { text: 'Technologies utilisées', link: '/diacter/technologies' },
+        { text: 'Challenges', link: '/diacter/challenges' },
+        { text: 'Fonctionnalités', link: '/diacter/fonctionnalites' },
+        { text: 'Apprentissages', link: '/diacter/apprentissages' }
       ],
       '/ppcc/': [
-        { text: 'introduction', link: '/ppcc/' },
-        { text: 'technologies utilisées', link: '/ppcc/technologies' },
-        { text: 'challenges', link: '/ppcc/challenges' },
-        { text: 'fonctionnalités', link: '/ppcc/fonctionnalites' },
-        { text: 'apprentissages', link: '/ppcc/apprentissages' }
+        { text: 'Introduction', link: '/ppcc/' },
+        { text: 'Technologies utilisées', link: '/ppcc/technologies' },
+        { text: 'Challenges', link: '/ppcc/challenges' },
+        { text: 'Fonctionnalités', link: '/ppcc/fonctionnalites' },
+        { text: 'Apprentissages', link: '/ppcc/apprentissages' }
       ],
       '/projet-mod-3d/': [
-        { text: 'introduction', link: '/projet-mod-3d/' },
-        { text: 'technologies utilisées', link: '/projet-mod-3d/technologies' },
-        { text: 'challenges', link: '/projet-mod-3d/challenges' },
-        { text: 'fonctionnalités', link: '/projet-mod-3d/fonctionnalites' },
-        { text: 'apprentissages', link: '/projet-mod-3d/apprentissages' }
+        { text: 'Introduction', link: '/projet-mod-3d/' },
+        { text: 'Technologies utilisées', link: '/projet-mod-3d/technologies' },
+        { text: 'Challenges', link: '/projet-mod-3d/challenges' },
+        { text: 'Fonctionnalités', link: '/projet-mod-3d/fonctionnalites' },
+        { text: 'Apprentissages', link: '/projet-mod-3d/apprentissages' }
       ],
       '/reddit-tiktok-story/': [
-        { text: 'introduction', link: '/reddit-tiktok-story/' },
-        { text: 'technologies utilisées', link: '/reddit-tiktok-story/technologies' },
-        { text: 'challenges', link: '/reddit-tiktok-story/challenges' },
-        { text: 'fonctionnalités', link: '/reddit-tiktok-story/fonctionnalites' },
-        { text: 'apprentissages', link: '/reddit-tiktok-story/apprentissages' }
+        { text: 'Introduction', link: '/reddit-tiktok-story/' },
+        { text: 'Technologies utilisées', link: '/reddit-tiktok-story/technologies' },
+        { text: 'Challenges', link: '/reddit-tiktok-story/challenges' },
+        { text: 'Fonctionnalités', link: '/reddit-tiktok-story/fonctionnalites' },
+        { text: 'Apprentissages', link: '/reddit-tiktok-story/apprentissages' }
       ],
       '/vinted-discord-bot/': [
         { text: 'Introduction', link: '/vinted-discord-bot/' },

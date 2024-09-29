@@ -1,161 +1,110 @@
 ---
 title: "Diacter"
-description: "Description complète du projet"
+description: "Une application pour l'apprentissage et la certification du français"
 ---
 
-# Diacter 
+# Diacter
 
-Bienvenue dans la documentation complète du projet **Nom du Projet**.
+> **Diacter** est une application web (avec un potentiel de développement mobile) dédiée à l'apprentissage et à la certification du français. Son objectif est de concurrencer des solutions comme le **Projet Voltaire**, tout en offrant des outils innovants basés sur l'**IA** pour améliorer les compétences linguistiques de manière personnalisée.
 
-## Introduction
+---
 
-Ce projet vise à [insérer objectif principal]. Développé en utilisant des technologies modernes comme **[technologies utilisées]**, il présente diverses fonctionnalités uniques.
+## 🎯 Objectifs
 
-## Image
+L'objectif principal de **Diacter** est d'accompagner les utilisateurs dans leur progression en français à travers des **dictées personnalisées** et des **exercices de correction de phrases**. Ces outils sont alimentés par une IA qui s'adapte au niveau de chaque utilisateur, assurant ainsi un suivi et des exercices sur mesure.
 
-Voici une capture d'écran de l'application :
-
-![Capture d'écran du projet](/logo/bon.png)
-
-## Vidéo
-
-Tu peux également intégrer des vidéos pour illustrer le fonctionnement :
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-
-## Citation
-
-Intègre des citations ou des remarques importantes :
-
-> "Ce projet est un excellent exemple de la façon dont les technologies modernes peuvent être utilisées pour résoudre des problèmes complexes." – **Léonard Corre**
-
-## Exemple de Code
-
-Tu peux afficher des blocs de code comme suit :
-
-```js
-// Exemple de code en JavaScript
-const express = require('express');
-const app = express();
-
-app.get('/', (req, res) => {
-  res.send('Hello World!');
-});
-
-app.listen(3000, () => {
-  console.log('Serveur démarré sur le port 3000');
-});
-```
-
-### Intégration TypeScript
-
-```ts
-// Exemple de code TypeScript
-type Project = {
-  name: string;
-  description: string;
-};
-
-const myProject: Project = {
-  name: "Nom du Projet",
-  description: "Ceci est un projet d'exemple en TypeScript"
-};
-
-console.log(myProject);
-```
-
-## Tableaux
-
-Les tableaux peuvent être utilisés pour structurer des données :
-
-| Fonctionnalité | Description                  | Statut       |
-| -------------- | ---------------------------- | ------------ |
-| Authentification | Implémentation d'une auth sécurisée | En cours     |
-| API REST       | Développement de l'API en Node.js | Complété     |
-| Interface      | UI en React et Next.js        | Complété     |
-
-## Alertes
-
-Tu peux ajouter des alertes pour attirer l'attention :
-
-::: warning Attention
-Ce projet est encore en cours de développement. Certaines fonctionnalités peuvent être instables.
+::: info Remarque
+La première version (V0) se concentre sur la mise en place d'un outil de génération de dictées fonctionnel. Des fonctionnalités supplémentaires seront ajoutées dans les futures versions.
 :::
 
-::: tip Conseil
-Utilise Docker pour une meilleure gestion des environnements.
+### ⚙️ **Fonctionnalités principales**
+
+- **📝 Génération de dictées par IA** : L'application utilise une IA pour générer des dictées adaptées au niveau de l'utilisateur, lues par une IA de synthèse vocale (TTS).
+- **🔍 Exercices de correction de phrases** : Inspiré du **Projet Voltaire**, les utilisateurs doivent identifier et corriger des erreurs dans des phrases générées par l'IA.
+- **📈 Suivi personnalisé** : Une IA analyse les performances de l'utilisateur et ajuste les exercices pour une progression optimale.
+- **💳 Système de crédits** : Les utilisateurs obtiennent des crédits pour générer des dictées et peuvent les recharger via un système de paiement. Un certain nombre de crédits est attribué régulièrement (hebdomadaire ou mensuel).
+- **🎓 Support de classe et d'entreprise (futur)** : Gestion de groupes pour les écoles et entreprises souhaitant améliorer le niveau de français de leurs membres.
+
+---
+
+## 🔧 Technologies Utilisées
+
+Ce projet est construit avec des technologies modernes pour garantir une expérience utilisateur rapide, responsive et scalable :
+
+| **Technologie**                                      | **Description**                                                               |
+| ---------------------------------------------------- | ----------------------------------------------------------------------------- |
+| [**Next.js 13**](https://nextjs.org/docs)            | Framework React pour le frontend et le backend avec une architecture moderne. |
+| [**TailwindCSS**](https://tailwindcss.com/docs)      | Framework CSS pour une conception rapide et flexible.                         |
+| [**LucideReact**](https://lucide.dev/icons/outdent)  | Ensemble d'icônes réactif pour améliorer l'interface utilisateur.             |
+| [**Shadcn UI**](https://ui.shadcn.com/docs)          | Composants d'interface utilisateur modernes et flexibles pour React.          |
+
+---
+
+## 📌 Inspirations
+
+Le développement de **Diacter** s'est inspiré de plusieurs plateformes et outils :
+
+- **[Monkeytype](https://codepen.io/Miodec/pen/wvaQQRR/)** : Pour l'interactivité et l'interface utilisateur.
+- **[Projet Voltaire](https://www.projet-voltaire.fr/offres/particuliers/?goto=test-gratuit)** : Source d'inspiration pour les exercices de correction et d'apprentissage personnalisés.
+- **[Dictaly](https://www.dictaly.com/)** : Un outil de dictées interactives, offrant une perspective intéressante sur les exercices linguistiques.
+- **Tutoriels Utilisés** : [Breadit](https://www.youtube.com/watch?v=mSUKMfmLAt0), [Skateshop](https://github.com/sadmann7/skateshop/blob/main/src/components/layouts/main-nav.tsx).
+
+---
+
+## 🛠️ Avancement des Tâches
+
+Voici un aperçu du statut actuel des tâches pour **Diacter** :
+
+### 🎯 **Dictée**
+- ✅ Design
+- ✅ IA pour la génération de texte
+- ✅ Synthèse vocale (TTS)
+
+### 🎯 **Exercice**
+- ✅ IA pour la génération de texte
+- ✅ Synthèse vocale (TTS)
+- ✅ Quiz et types de questions
+- ✅ Pulling des résultats
+
+### 🎯 **Pages**
+- ✅ Login / Sign Up
+- ✅ Dictée
+- ✅ Exercices
+- ✅ Profil
+- ⬜ Paramètres
+
+---
+
+## ⚙️ Refactor & Optimisations
+
+Nous prévoyons plusieurs ajustements et optimisations dans la version V0, notamment :
+
+- ⬜ Choisir les liens importants sur la landing page.
+- ⬜ Transition vers un système d'abonnement pour les paiements.
+- ⬜ Réécrire les textes du site pour améliorer la clarté.
+- ⬜ Vérifier la cohérence du style sur toutes les pages :
+  - Profil
+  - Choix de dictée
+  - Exercice
+- ⬜ Ajouter des **tooltips** ou un tutoriel pour guider l'utilisateur lors de sa première dictée/exercice.
+
+---
+
+## 🔮 Fonctionnalités Futures
+
+**Diacter** est un projet en évolution constante. Voici quelques fonctionnalités prévues pour les versions futures :
+
+::: tip Fonctionnalités à venir
+- **Gestion de groupe** : Support pour les enseignants ou entreprises souhaitant gérer des groupes d'apprenants.
+- **Système de paiement amélioré** : Passage à un système d'abonnement pour simplifier la gestion des crédits.
+- **Mobile App** : Extension vers une version mobile pour plus de flexibilité.
 :::
 
-## Liens Externes
+---
 
-Ajoute des liens vers d'autres ressources ou documentation :
+## 🎓 Conclusion
 
-[Consultez la documentation officielle de VitePress](https://vitepress.dev/)
+Avec **Diacter**, nous visons à offrir une solution complète et personnalisée pour l'apprentissage et la certification du français, tout en utilisant les dernières avancées en matière d'IA. La première version (V0) mettra l'accent sur la génération de dictées automatisées, avec pour objectif une évolution continue vers une plateforme d'apprentissage enrichie.
 
-## Liste à Puces
+> **Prochaines étapes** : Améliorer l'expérience utilisateur avec des tutoriels interactifs, finaliser le système de paiement et étendre le support aux groupes/classes.
 
-- **Backend** : NestJS, Express
-- **Frontend** : React, Next.js
-- **DevOps** : Docker, Kubernetes, GitlabCI
-- **Cloud** : AWS, S3
-
-## Liste Numérotée
-
-1. Analyse du problème
-2. Conception de l'architecture
-3. Développement et tests
-4. Mise en production
-
-## Graphique ou Diagramme
-
-Tu peux aussi intégrer des diagrammes (via Mermaid, par exemple) :
-
-```mermaid
-graph TD;
-  A[Start] --> B[Do something];
-  B --> C{Is it done?};
-  C -->|Yes| D[Finish];
-  C -->|No| B;
-```
-
-## Fonctionnalités
-
-Voici une liste des principales fonctionnalités développées dans ce projet :
-
-- **Fonctionnalité 1** : Développement de l'API REST pour la gestion des utilisateurs.
-- **Fonctionnalité 2** : Interface utilisateur développée avec React.
-- **Fonctionnalité 3** : Intégration de l'authentification OAuth2 pour les utilisateurs.
-- **Fonctionnalité 4** : CI/CD avec GitLabCI et déploiement sur AWS.
-
-## Technologies Utilisées
-
-Ce projet utilise les technologies suivantes :
-
-- **Node.js** pour le backend.
-- **React** pour le frontend.
-- **AWS** pour le déploiement.
-- **Docker** pour la conteneurisation des services.
-
-## Conclusion
-
-Ce projet est un excellent exemple de l'intégration de multiples technologies pour répondre à des besoins spécifiques. Pour plus d'informations, consulte le [repository GitHub du projet](https://github.com/ton-projet).
-
-```
-
-### Explication des sections :
-1. **Introduction** : Résume le projet, ses objectifs, et les technologies utilisées.
-2. **Image** : Intégration d’images avec une description claire.
-3. **Vidéo** : Ajout de vidéos via un lien `iframe`.
-4. **Citation** : Exemples de citations pour des remarques ou réflexions importantes.
-5. **Exemple de Code** : Affiche du code dans différents langages avec mise en forme.
-6. **Tableaux** : Utilisation de tableaux pour structurer des données ou des fonctionnalités.
-7. **Alertes** : Utilisation de blocs d’alerte pour souligner des points importants.
-8. **Listes** : Exemples de listes à puces et numérotées.
-9. **Graphiques/Diagrammes** : Utilisation de Mermaid pour intégrer des diagrammes.
-10. **Fonctionnalités** : Liste des fonctionnalités clés du projet.
-11. **Technologies Utilisées** : Détail des technologies employées.
-
-### Utilisation :
-Ce template peut être réutilisé pour chaque projet dans ton blog, en modifiant simplement les sections spécifiques à chaque projet. Cela te permettra de garder une documentation complète et bien organisée pour chaque projet.
-
-Est-ce que ce modèle correspond à tes attentes ?
