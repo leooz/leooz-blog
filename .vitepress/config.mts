@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Léonard",
   description: "Mon blog d'ingénierie",
-  head: [['link', {rel : 'icon', href: '/public/logo/leooz.png'}]],
+  head: [['link', {rel : 'icon', href: '/logo/leooz.png'}]],
   themeConfig: {
     logo: '/logo/leooz.png',
     // https://vitepress.dev/reference/default-theme-config
