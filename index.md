@@ -6,7 +6,7 @@ hero:
   text: "<span style='background: linear-gradient(to right, #6a11cb, #2575fc); -webkit-background-clip: text; color: transparent;'>Journey</span>"
   tagline: "Mon blog de projets personnels"
   image:
-    src: /public/logo/leooz1.png # Remplace par le chemin vers ton logo principal
+    src: /logo/leooz1.png # Remplace par le chemin vers ton logo principal
     alt: "Logo Léonard Engineering"
   actions:
     - theme: brand
@@ -24,7 +24,7 @@ features:
     link: /partipark/
   
   - icon: 
-        src: /public/logo/logo-diacter.svg # Remplace par le chemin vers le logo du projet
+        src: /logo/logo-diacter.svg # Remplace par le chemin vers le logo du projet
     title: Diacter
     details: Un quiz intelligent pour améliorer le français, utilisant l'IA pour s'adapter au niveau de chaque utilisateur. Développé avec Next.js.
     link: /diacter/
